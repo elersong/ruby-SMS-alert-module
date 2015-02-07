@@ -1,5 +1,4 @@
-__Date: 29 Jan 2015__
-__Author: Grey Elerson__
+__Date: 29 Jan 2015__ || __Author: Grey Elerson__
 #Title: Ruby NotifySMS Alert Module
 
 This project is created with ruby version 2.1.5p273 and serves the purpose
