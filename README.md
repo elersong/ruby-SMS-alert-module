@@ -1,6 +1,6 @@
-Date: 29 Jan 2015
-Author: Grey Elerson
-Title: Ruby NotifySMS Alert Module
+###Date: 29 Jan 2015
+###Author: Grey Elerson
+#Title: Ruby NotifySMS Alert Module
 
 This project is created with ruby version 2.1.5p273 and serves the purpose
 of sending SMS text-only messages to a phone number of your choosing using
@@ -24,9 +24,11 @@ that same phone will recieve two identical messages.
 
 Example:
 
+```ruby
 NotifySMS.service_provider = "Verizon"
 NotifySMS.phone_number = "5551234567"
 NotifySMS.sender_email = "notificationse@testapp.com"
 NotifySMS.message = "Over 500 users have registered today for TestApp.com"
 
 NotifySMS.send
+```
